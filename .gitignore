@@ -1,0 +1,9 @@
+PROJECT_CONTEXT.md
+ASSESSMENT.md
+COMPARISON.md
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+node_modules/

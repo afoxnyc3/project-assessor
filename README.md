@@ -29,7 +29,7 @@ A two-stage Claude Code command toolkit for systematic technical assessment of a
 Run the install script once. It symlinks the commands so every project gets access:
 
 ```bash
-git clone https://github.com/YOUR_ORG/project-assessor.git ~/project-assessor
+git clone https://github.com/afoxnyc3/project-assessor.git ~/project-assessor
 cd ~/project-assessor
 chmod +x bin/install.sh
 ./bin/install.sh
@@ -58,8 +58,8 @@ cp -r /path/to/project-assessor/templates/ .assessor-templates/
 
 ```bash
 # From target project root — pulls commands into .claude/commands/
-npx degit YOUR_ORG/project-assessor/.claude/commands .claude/commands
-npx degit YOUR_ORG/project-assessor/templates .assessor-templates
+npx degit afoxnyc3/project-assessor/.claude/commands .claude/commands
+npx degit afoxnyc3/project-assessor/templates .assessor-templates
 ```
 
 ## Usage
